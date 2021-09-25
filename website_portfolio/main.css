@@ -1,0 +1,41 @@
+body {
+  font-family: "Akzidenz-Grotesk Next", sans-serif;
+  color: black;
+  margin-left: 12%;
+  margin-right: 12%;
+  font-size: 15px;
+  background: whitesmoke;
+}
+
+.header {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+}
+
+.header_left {
+  font-size: 28px;
+  height: auto;
+  width: 20%;
+  position: relative;
+}
+
+.header_right {
+  position: absolute;
+  right: 12%;
+}
+
+.header_menu_right {
+  padding-left: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+.header_menu_left {
+  text-decoration: none;
+  color: black;
+}
+
+.header_menu_right:hover {
+  text-decoration: underline;
+}
