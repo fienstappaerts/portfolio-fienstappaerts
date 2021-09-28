@@ -3,7 +3,7 @@ body {
   color: black;
   margin-left: 12%;
   margin-right: 12%;
-  font-size: 0.8vw;
+  font-size: 1vw;
   background: whitesmoke;
 }
 
@@ -14,7 +14,7 @@ body {
 }
 
 .header_left {
-  font-size: 1.5vw;
+  font-size: 1.8vw;
   height: auto;
   width: 50%;
   position: relative;
@@ -36,8 +36,31 @@ body {
   color: inherit;
 }
 
+.header_menu_left:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
 .header_menu_right:hover {
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 1025px) {
+  body {
+    font-size: 3vw;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .header_left {
+    font-size: 5.7vw;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .header {
+    margin-top: 12%;
+  }
 }
 
 .contact {
@@ -66,24 +89,6 @@ li {
   right: 12%;
   width: 40%;
   height: auto;
-}
-
-@media only screen and (max-width: 900px) {
-  body {
-    font-size: 3vw;
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  .header_left {
-    font-size: 5.7vw;
-  }
-}
-
-@media only screen and (max-width: 900px) {
-  .header {
-    margin-top: 12%;
-  }
 }
 
 @media only screen and (max-width: 900px) {
