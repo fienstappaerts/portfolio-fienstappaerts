@@ -68,7 +68,7 @@ li {
   height: auto;
 }
 
-.phone_number:visited {
+.phone-number .phone_number:visited {
   text-decoration: none;
   color: black;
 }
