@@ -36,6 +36,11 @@ body {
   color: inherit;
 }
 
+.header_menu_left:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
 .header_menu_right:hover {
   text-decoration: underline;
 }
@@ -59,7 +64,6 @@ a:hover {
 }
 
 .content_link_year {
-  font-size: 0.8vw;
   padding-right: 10px;
 }
 
@@ -67,9 +71,9 @@ a:hover {
   text-decoration: underline;
 }
 
-span {
-  font-size: 0.55vw;
+.content_link_type {
   padding-left: 0.2%;
+  font-size: 0.58vw;
 }
 
 @media only screen and (max-width: 900px) {
