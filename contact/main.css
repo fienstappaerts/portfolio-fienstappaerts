@@ -68,6 +68,11 @@ li {
   height: auto;
 }
 
+.phone_number:visited {
+  text-decoration: none;
+  color: black;
+}
+
 @media only screen and (max-width: 900px) {
   body {
     font-size: 3vw;
