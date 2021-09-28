@@ -8,9 +8,9 @@ body {
 }
 
 .header {
-  margin-top: 5%;
   display: flex;
   align-items: center;
+  margin-top: 3%;
 }
 
 .header_left {
@@ -28,12 +28,12 @@ body {
 .header_menu_right {
   margin-left: 10px;
   text-decoration: none;
-  color: black;
+  color: inherit;
 }
 
 .header_menu_left {
   text-decoration: none;
-  color: black;
+  color: inherit;
 }
 
 .header_menu_right:hover {
