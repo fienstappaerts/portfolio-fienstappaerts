@@ -102,12 +102,6 @@ a:hover {
   }
 }
 
-@media only screen and (max-width: 1025px) {
-  a {
-    font-size: 1vw;
-  }
-}
-
 .content_total {
   display: flex;
   margin-bottom: 5%;
