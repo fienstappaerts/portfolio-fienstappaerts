@@ -51,11 +51,11 @@ body {
   }
 }
 
-@media only screen and (max-width: 1025px) {
+/* @media only screen and (max-width: 1025px) {
   .header_left {
     font-size: 5.7vw;
   }
-}
+} */
 
 @media only screen and (max-width: 1025px) {
   .header {
