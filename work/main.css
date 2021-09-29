@@ -68,7 +68,7 @@ body {
 }
 
 .content_link {
-  margin-top: 0.2%;
+  margin-top: 0.2vw;
   cursor: pointer;
   width: 250%;
 }
@@ -91,7 +91,7 @@ a:hover {
 }
 
 .content_link_type {
-  padding-left: 0.2%;
+  padding-left: 0.2vw;
   font-size: 0.7vw;
 }
 
@@ -104,6 +104,7 @@ a:hover {
 
 .content_total {
   display: flex;
+  margin-bottom: 5%;
 }
 
 .content_right {
@@ -113,12 +114,42 @@ a:hover {
 .content_images {
   margin-top: 4%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 30% 70%);
   grid-template-rows: repeat(8, auto);
   grid-gap: 1%;
-  margin-left: 20%;
+  margin-left: 15%;
+  padding-top: 0.5%;
+}
+
+.content_images_image {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(8, auto);
+  grid-gap: 1%;
+  margin-left: 5%;
+  padding-top: 0.5%;
 }
 
 img {
   width: 100%;
+}
+
+@media only screen and (max-width: 1025px) {
+  .content_total,
+  .content_images {
+    display: block;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .content_images_image {
+    display: grid;
+    margin-left: 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(8, auto);
+    grid-gap: 1%;
+    padding-top: 4%;
+    padding-bottom: 20%;
+  }
 }
