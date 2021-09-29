@@ -91,13 +91,13 @@ li {
   height: auto;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1025px) {
   .contact {
     margin-top: 4%;
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1025px) {
   .contact_portret {
     margin-top: 25%;
     left: 12%;
