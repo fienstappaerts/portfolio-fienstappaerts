@@ -45,19 +45,19 @@ body {
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1550px) {
   body {
     font-size: 3vw;
   }
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1550px) {
   .header_left {
     font-size: 190%;
   }
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1550px) {
   .header {
     margin-top: 12%;
   }
@@ -95,14 +95,14 @@ a:hover {
   font-size: 0.7vw;
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1550px) {
   .content_link {
     padding-left: 0.2%;
     font-size: 100%;
   }
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1550px) {
   .content_link_type {
     padding-left: 0.2%;
     font-size: 65%;
@@ -141,7 +141,7 @@ img {
   width: 100%;
 }
 
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 1550px) {
   .content_total,
   .content_images {
     display: block;
@@ -149,7 +149,7 @@ img {
   }
 }
 
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 1550px) {
   .content_images_image {
     display: grid;
     margin-left: 0;
@@ -161,7 +161,7 @@ img {
   }
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1550px) {
   .content_images_text {
     font-size: 100%;
   }
