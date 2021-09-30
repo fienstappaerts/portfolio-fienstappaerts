@@ -99,6 +99,7 @@ a:hover {
   .content_link {
     padding-left: 0.2%;
     font-size: 100%;
+    width: 100%;
   }
 }
 
