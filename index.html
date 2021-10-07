@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="main.js" />
     <title>fien stappaerts</title>
     <link
       href="http://fonts.cdnfonts.com/css/akzidenz-grotesk-next"
@@ -35,10 +34,13 @@
 
     <!-- content -->
 
-    <div class="content">
-      <div class="content_text"></div>
+    <div class="viewer">
+      <canvas class="webgl"></canvas>
     </div>
 
-    <img src="" alt="" />
+    <script src="../third_party/three.min.js"></script>
+    <script src="../third_party/OrbitControls.js"></script>
+    <script src="../third_party/SVGRenderer.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

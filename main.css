@@ -45,6 +45,10 @@ body {
   text-decoration: underline;
 }
 
+.intro {
+  padding-bottom: 3%;
+}
+
 @media only screen and (max-width: 1025px) {
   body {
     font-size: 3vw;
@@ -61,4 +65,9 @@ body {
   .header {
     margin-top: 12%;
   }
+}
+
+.viewer {
+  overflow: hidden;
+  height: 80vh;
 }
