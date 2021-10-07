@@ -8,13 +8,14 @@ const canvas = document.querySelector("canvas.webgl");
 // Scene
 const scene = new THREE.Scene();
 
-scene.background = new THREE.Color("rgb(245, 245, 245)");
+//scene.background = new THREE.Color("rgb(245, 245, 245)");
+scene.background = new THREE.Color("rgb(205, 205, 205)");
 
 /**
  * Textures
  */
 const textureLoader = new THREE.TextureLoader();
-const matcapTexture = textureLoader.load("../static/textures/matcaps/3.png");
+const matcapTexture = textureLoader.load("../static/textures/matcaps/12.jpeg");
 
 /**
  * Fonts
